@@ -15,10 +15,8 @@
 	unless superceded by other styles.
    =============================================
 */
-#example1 {
-border: 20px solid white;
-padding: 10px;
-}
+
+
 .sticky {
 position: fixed;
 top: 0;
@@ -29,29 +27,27 @@ padding-top: 60px;
 }
 body {
 background: linear-gradient(#8DDFFC,white,#DDA0DD,white,pink,white,#FFFF66,white,#90EE90);
-background-repeat: no-repeat;
-background-size: 100% 100%;
+background-size: cover;
 }
 ul{
 list-style-type: none;
 margin: 0;
 padding: 0;
-width: 200px;
-height: 380px;
-background-color:#ffffff
+width: 190px;
+height: 180px;
 }
 li a {
 display: block;
-background: linear-gradient(grey,#ffffff);
+background:black;
 padding: 8px 16px;
 text-decoration: none;
-font-size: 25px;
-color:#000000;
-text-shadow: 10px 6px 1px #ffffff;
+font-size: 20px;
+color:white;
+
 }
 /* Change the link color on hover */
 li a:hover {
-background-color: #000000;
+background-color: white;
 color: black;
 }
 .sticky {
@@ -62,11 +58,15 @@ width: 15%
 .sticky + .content {
 padding-top: 60px;
 }
-h2{
-font-size: 50px
-}
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+p{
+  font-size:30px;
+}
+.pictures{
+height:410px;
+width:410px;
 }
